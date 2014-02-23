@@ -1,0 +1,169 @@
+/* *** css by miss monorom www.intensivstation.ch *** */
+/* css released under Creative Commons License -  http://creativecommons.org/licenses/by/2.0/deed.en  */
+
+body {
+background-color: #379117;
+font-size: 11px;
+font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+color:white;
+padding:0;
+margin:0;
+}
+a {color: #DB7093;}
+a:visited {color:#DB7093;}
+a:hover {color: #564b47;}
+a:active { color:#000000;}
+
+h1 {
+font-size: 11px;
+text-transform:uppercase;
+background-color: #2C5478;
+border-top:1px solid white;
+border-bottom:1px solid white;
+padding:5px 15px;
+margin:0 }
+
+h2 {
+font-size:20px;
+font-weight: normal;
+padding: 5px 10px;
+margin:0;}
+
+
+/* -------- Tables to display query results ----------*/
+table.queryResults{
+border: 1px solid black;
+border-collapse:collapse;
+
+}
+tr.queryResults {
+
+}
+th.queryResults {
+border: 1px solid black;
+}
+td.queryResults {
+border: 1px solid black;
+text-align:right;
+}
+
+/* ------------- Horizontal Nav Menu ------------  */
+
+#nav {
+    margin:0;
+    padding:0;
+    background:#3699CA url(/idefine/img/nav_bg.jpg) 0 0 repeat-x;
+    width:100%;
+    float:left;
+    border:1px solid #42432d;
+    border-width:1px 0;
+}
+#nav li {
+    display:inline;
+    padding:0;
+    margin:0;
+}
+#nav a:link,
+#nav a:visited {
+    color:#F54A20;
+    background:#1B3459;
+    padding:20px 40px 4px 10px;
+    float:left;
+    width:auto;
+    border-right:1px solid #42432d;
+    text-decoration:none;
+    font:bold 1em/1em Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    text-shadow: 2px 2px 2px #555;
+}
+#nav a:hover {
+    color:#fff;
+    background:#727454;
+}
+
+#nav li:first-child a {
+    border-left:1px solid #42432d;
+    }
+    #index #nav-home a,
+    #mydictionary #nav-dictionary a,
+    #groups #nav-groups a,
+    #search #nav-search a,
+    #about #nav-about a,
+    #contact #nav-contact a {
+    background:#e35a00;
+    color:#fff;
+    text-shadow:none;
+    }
+    #index #nav-home a:hover,
+    #mydictionary #nav-dictionary a:hover,
+    #groups #nav-groups a:hover,
+    #search #nav-search a:hover,
+    #about #nav-about a:hover,
+    #contact #nav-contact a:hover {
+    background:#e35a00;
+    }
+    #nav a:active {
+    background:#333333;
+    color:#fff;
+    }
+
+
+img.download {vertical-align:middle;}
+
+/* ----------container to center the layout-------------- */
+#container {
+width: 900px;
+margin-bottom: 10px;
+margin: 0 auto;
+background-color: #73E849;
+}
+
+/* ----------banner for logo-------------- */
+#banner {
+background-color: #4693C4;
+text-align: right;
+padding: 0px;
+margin: 0px;
+}
+#banner img {padding:10px 0px;} 
+
+/* -----------------content--------------------- */
+#content {
+background-color: #4693C4;
+padding: 0px;
+/*margin: 0 200px; */
+margin: 0 50px;
+}
+div#content { 
+min-height:600px;
+height:expression(this.scrollHeight > 600 ? "auto":"600px"); 
+}
+
+p, pre{
+padding: 5px 10px;
+margin:0px;
+}
+
+/* --------------left navi------------- */
+#left {
+float: left;
+width: 200px;
+margin: 0;
+padding: 0;
+}
+
+/* --------------right navi------------- */
+#right {
+float: right;
+width: 200px;
+margin: 0;
+padding: 0;
+}
+
+
+/* -----------footer--------------------------- */
+#footer {
+clear: both;
+margin: 0;
+padding: 0;
+text-align: right; }
